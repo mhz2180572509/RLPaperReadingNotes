@@ -7,10 +7,8 @@
 > [2] Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Andrei A. Rusu, Joel Veness, Marc G. Bellemare, Alex Graves, Martin Riedmiller, Andreas K. Fidjeland, Georg Ostrovski, Stig Petersen, Charles Beattie, Amir Sadik, Ioannis Antonoglou, Helen King, Dharshan Kumaran, Daan Wierstra, Shane Legg, and Demis Hassabis. 2015. Human-level control through deep reinforcement learning. Nature 518, 7540 (February 2015), 529–533. DOI:<https://doi.org/10.1038/nature14236>
 
 ![Playing Atari with Deep Reinforcement Learning.](./Images/1-1.png)
-[Paper Link](https://arxiv.org/abs/1312.5602)
 
 ![Human-level control through deep reinforcement learning.](./Images/1-2.png)
-[Paper Link](https://www.nature.com/articles/nature14236)
 
 ## Overview
 
