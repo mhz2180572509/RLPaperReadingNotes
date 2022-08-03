@@ -19,3 +19,4 @@ The reading notes of reinforcement learning papers.
 3. [Q-Cut algorithm](./Herarchical%20RL/Sub-Goals%20Discovery/3-Q-Cut.md): Q-Cut - Dynamic Discovery of Sub-goals in Reinforcement Learning.
 4. [L-Cut algorithm](./Herarchical%20RL/Sub-Goals%20Discovery/4-L-Cut.md): Identifying Useful Subgoals in Reinforcement Learning by Local Graph Partitioning.
 5. [PVFs representation learning based](./Herarchical%20RL/Sub-Goals%20Discovery/5-PVFs.md): A Laplacian Framework for Option Discovery in Reinforcement Learning.
+6. [Hierarchical Assignment of Sub-goals to Sub-policies LEarning algorithm (HASSLE)](Herarchical%20RL/Sub-Goals%20Discovery/6-HASSLE.md): Hierarchical Reinforcement Learning with Subpolicies Specializing for Learned Subgoals.
