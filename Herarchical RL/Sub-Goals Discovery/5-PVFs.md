@@ -28,7 +28,7 @@ The paper proposed and evaluated some features of the algorithm:
 * The algorithm can help with the exploration.
 * The algorithm can be extended to linear function approximation approaches.
 
-Reference
+## Reference
 
 [1] Sridhar Mahadevan. 2005. Proto-value functions: developmental reinforcement learning. In Proceedings of the 22nd international conference on Machine learning  - ICML ’05, ACM Press, Bonn, Germany, 553–560. DOI:https://doi.org/10.1145/1102351.1102421
 
