@@ -18,3 +18,4 @@ The reading notes of reinforcement learning papers.
 2. [Interaction graph and bewteenness based sub-goals discovery](./Herarchical%20RL/Sub-Goals%20Discovery/2-Betweenness%20Based.md): Skill Characterization Based on Betweenness.
 3. [Q-Cut algorithm](./Herarchical%20RL/Sub-Goals%20Discovery/3-Q-Cut.md): Q-Cut - Dynamic Discovery of Sub-goals in Reinforcement Learning.
 4. [L-Cut algorithm](./Herarchical%20RL/Sub-Goals%20Discovery/4-L-Cut.md): Identifying Useful Subgoals in Reinforcement Learning by Local Graph Partitioning.
+5. [PVFs representation learning based](./Herarchical%20RL/Sub-Goals%20Discovery/5-PVFs.md): A Laplacian Framework for Option Discovery in Reinforcement Learning.
