@@ -16,3 +16,4 @@ The reading notes of reinforcement learning papers.
 
 1. [Multiple-instance learning based sub-goals discovery](./Herarchical%20RL/Sub-Goals%20Discovery/1-Multiple-Instance.md): Automatic Discovery of Subgoals in Reinforcement Learning using Diverse Density.
 2. [Interaction graph and bewteenness based sub-goals discovery](./Herarchical%20RL/Sub-Goals%20Discovery/2-Betweenness%20Based.md): Skill Characterization Based on Betweenness
+3. [Q-Cut algorithm](./Herarchical%20RL/Sub-Goals%20Discovery/3-Q-Cut.md): Q-Cut - Dynamic Discovery of Sub-goals in Reinforcement Learning
