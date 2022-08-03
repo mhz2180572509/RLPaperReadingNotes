@@ -2,7 +2,7 @@
 
 > Bram Bakker and Jürgen Schmidhuber. Hierarchical Reinforcement Learning with Subpolicies Specializing for Learned Subgoals. 
 
-![Hierarchical Reinforcement Learning with Subpolicies Specializing for Learned Subgoals](./6-HASSLE.md)
+![Hierarchical Reinforcement Learning with Subpolicies Specializing for Learned Subgoals](./Images/6-1.png)
 
 ## Overview
 
