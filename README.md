@@ -12,6 +12,10 @@ The reading notes of reinforcement learning papers.
 
 ## Hierarchical RL
 
+## Basic Hierarchical RL
+
+1. [Options framework](./Herarchical%20RL/Basic%20HRL/1-options.md): Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning.
+
 ### Sub-Goals Discovery
 
 1. [Multiple-instance learning based sub-goals discovery](./Herarchical%20RL/Sub-Goals%20Discovery/1-Multiple-Instance.md): Automatic Discovery of Subgoals in Reinforcement Learning using Diverse Density.
