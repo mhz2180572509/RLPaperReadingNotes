@@ -16,7 +16,7 @@ The paper mainly want to overcome/relieve the overestimation problem in standard
 
 The core idea for DDQN algorithm to reduce overestimation is to **decompose the max operation in the TD-target into *action selection* and *action evaluation***. DDQN is based on the standard DQN algorithm and uses the existing architecture **without requiring additional networks or parameters**.
 
-In the DQN algorithm, it initialized two networks, one is called **(online) policy network** (with parameters $theta$) and another is called **target network** (with parameters $\theta'$). The parameters are copied from policy network to target network periodically. To update parameters of the policy network at each step, the algorithm randomly draw transition samples from the experience replay buffer and minimize the distance between the **TD-target** $Y$ and the current Q-value. 
+In the DQN algorithm, it initialized two networks, one is called **(online) policy network** (with parameters $\theta$) and another is called **target network** (with parameters $\theta'$). The parameters are copied from policy network to target network periodically. To update parameters of the policy network at each step, the algorithm randomly draw transition samples from the experience replay buffer and minimize the distance between the **TD-target** $Y$ and the current Q-value. 
 
 The main difference is how to compute the TD-target:
 * For the standard DQN:
