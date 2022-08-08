@@ -6,10 +6,11 @@ The reading notes of reinforcement learning papers.
 
 ### Deep Q-Learning
 
-1. [[DQN] Deep Q-Learning Networks](./Standard%20RL/Model-Free/1-DQN.md)
+1. [[DQN] Deep Q-Networks](./Standard%20RL/Model-Free/1-DQN.md)
     * Playing Atari with Deep Reinforcement Learning.
     * Human-level control through deep reinforcement learning.
-2. [[DRQN] Deep Recurrent Q-Learning](./Standard%20RL/Model-Free/2-DRQN.md): Deep Recurrent Q-Learning for Partially Observable MDPs.
+2. [[DRQN] Deep Recurrent Q-Networks](./Standard%20RL/Model-Free/2-DRQN.md): Deep Recurrent Q-Learning for Partially Observable MDPs.
+3. [[DDQN] Double Deep Q-Networks](./Standard%20RL/Model-Free/3-DDQN.md): Deep Reinforcement Learning with Double Q-Learning.
 
 
 ## Hierarchical RL
