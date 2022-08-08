@@ -46,7 +46,7 @@ In the SMDP model, the state space and option space have been defined. In additi
 * For reward function/model, the reward of taking an option equals to **the rewards received along the way** (**discounted by** $\gamma$):
     $r_s^o=\mathbb{E} [r_{t+1} + \gamma r_{t+2}+ ... + \gamma^{k−1} r_{t+k} | \mathcal{E}(o,s,t)]$
 * The transition probability is the likelihood that starts from state $s$ and $s'$ is the state to terminate the option with discounted $\gamma$:
-	$p_{ss'}^o=\sum_{k=1}^{\infty}{p(s',k)\gamma^k}$
+    $p_{ss'}^o=\sum_{k=1}^{\infty}{p(s',k)\gamma^k}$
 
 After defining the SMDP $\langle S,O,R,T,\gamma\rangle$, we can futher genelize the Bellman equations for value function and Q-function as well as the **optimal** policy defined by them. This is the basis of planning and learning from SMDP.
 
