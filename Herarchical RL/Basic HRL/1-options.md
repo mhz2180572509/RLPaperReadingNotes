@@ -45,7 +45,7 @@ In the SMDP model, the state space and option space have been defined. In additi
 
 * For reward function/model, the reward of taking an option equals to **the rewards received along the way** (**discounted by** $\gamma$):
     $r_s^o=\mathbb{E} [r_{t+1} + \gamma r_{t+2}+ ... + \gamma^{k−1} r_{t+k} | \mathcal{E}(o,s,t)]$
-* The transition probability is the likelihood that starts from state $s$ and $s'$ is the state to terminate the option with discounted  \gamma :
+* The transition probability is the likelihood that starts from state $s$ and $s'$ is the state to terminate the option with discounted $\gamma$:
 	$p_{ss'}^o=\sum_{k=1}^{\infty}{p(s',k)\gamma^k}$
 
 After defining the SMDP $\langle S,O,R,T,\gamma\rangle$, we can futher genelize the Bellman equations for value function and Q-function as well as the **optimal** policy defined by them. This is the basis of planning and learning from SMDP.
@@ -56,7 +56,7 @@ The paper demonstrates two approaches, the value iteration based and the Q-funct
 
 The above option based learning/planning are conducted on **deterministic options**. In this section, the paper further proposed the ***options interruption***, in which we interrupt the option once there is a better option to complete the task before the original option terminates.
 
-The process can be understood briefly like this: in an option $o$ with policy $\mu$ which is running currently, at a state $s_t$, once there is another option $o'$ whose $I'$ contsists of the state $s_t$ and we can compare the $Q^{\mu}(s_t,o)<V(s_t)$, then we can interrupt the original option o and start the new option $o'$.
+The process can be understood briefly like this: in an option $o$ with policy $\mu$ which is running currently, at a state $s_t$, once there is another option $o'$ whose $I'$ contsists of the state $s_t$ and we can compare the $Q^{\mu}(s_t,o) < V(s_t)$, then we can interrupt the original option o and start the new option $o'$.
 
 One greedy situation is to check the value function each primitive step, which may increase the computational cost but may also derive optimal overall policy.
 
