@@ -11,6 +11,7 @@ The reading notes of reinforcement learning papers.
     * Human-level control through deep reinforcement learning.
 2. [[DRQN] Deep Recurrent Q-Networks](./Standard%20RL/Model-Free/2-DRQN.md): Deep Recurrent Q-Learning for Partially Observable MDPs.
 3. [[DDQN] Double Deep Q-Networks](./Standard%20RL/Model-Free/3-DDQN.md): Deep Reinforcement Learning with Double Q-Learning.
+4. [[Dueling DQN] Dueling Deep Q-Networks](./Standard%20RL/Model-Free/4-Dueling%20DQN.md): Dueling Network Architectures for Deep Reinforcement Learning.
 
 
 ## Hierarchical RL
