@@ -14,9 +14,14 @@ The reading notes of reinforcement learning papers.
 4. [[Dueling DQN] Dueling Deep Q-Networks](./Standard%20RL/Model-Free/4-Dueling%20DQN.md): Dueling Network Architectures for Deep Reinforcement Learning.
 
 
+## Techniques
+
+1. [[PER] Prioritized Experience Replay](./Techniques/1-PER.md): Prioritized Experience Replay.
+
+
 ## Hierarchical RL
 
-## Basic Hierarchical RL
+### Basic Hierarchical RL
 
 1. [Options framework](./Herarchical%20RL/Basic%20HRL/1-options.md): Between MDPs and Semi-MDPs: A Framework for Temporal Abstraction in Reinforcement Learning.
 
