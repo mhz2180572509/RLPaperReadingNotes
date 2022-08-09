@@ -20,12 +20,18 @@ In the DQN algorithm, it initialized two networks, one is called **(online) poli
 
 The main difference is how to compute the TD-target:
 * For the standard DQN:
-    $Y^{DQN}=r_{t+1}+\gamma \max_{a'}⁡{Q(s_{t+1},a'|\theta')}$
+    
+	$Y^{DQN}=r_{t+1}+\gamma \max_{a'}⁡{Q(s_{t+1},a'|\theta')}$
+	
 	which can be written as:
+	
 	$Y^{DQN}=r_{t+1}+\gamma Q(s_{t+1},\arg\max_{a'}{Q(s_{t+1},a'|\theta')}|\theta')$
+	
 	where we can see that the selection of the action with maximal Q-value and compute the corresponding Q-value is all conducted by the target network (so it directly return the maximal Q-value among the outputs from the target network).
 * For the double DQN:
-    $Y^{DDQN}=r_{t+1}+\gamma Q(s_{t+1},\arg\max_{a'}{Q(s_{t+1},a'|\theta)}|\theta')$
+    
+	$Y^{DDQN}=r_{t+1}+\gamma Q(s_{t+1},\arg\max_{a'}{Q(s_{t+1},a'|\theta)}|\theta')$
+	
 	where we can see that the selection of the action with maximal Q-value is conducted by the policy network but the computation of the corresponding Q-value is conducted by the target network.
 
 The process to compute the TD-target can be described as follows:
