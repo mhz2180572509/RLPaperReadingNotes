@@ -6,17 +6,19 @@ The reading notes of reinforcement learning papers.
 
 ### Deep Q-Learning
 
-1. [[DQN] Deep Q-Networks](./Standard%20RL/Model-Free/1-DQN.md)
+1. [[DQN] Deep Q-Networks](./Model-Free%20RL/Deep%20Q-Learning/1-DQN.md)
     * Playing Atari with Deep Reinforcement Learning.
     * Human-level control through deep reinforcement learning.
-2. [[DRQN] Deep Recurrent Q-Networks](./Standard%20RL/Model-Free/2-DRQN.md): Deep Recurrent Q-Learning for Partially Observable MDPs.
-3. [[DDQN] Double Deep Q-Networks](./Standard%20RL/Model-Free/3-DDQN.md): Deep Reinforcement Learning with Double Q-Learning.
-4. [[Dueling DQN] Dueling Deep Q-Networks](./Standard%20RL/Model-Free/4-Dueling%20DQN.md): Dueling Network Architectures for Deep Reinforcement Learning.
+2. [[DRQN] Deep Recurrent Q-Networks](./Model-Free%20RL/Deep%20Q-Learning/2-DRQN.md): Deep Recurrent Q-Learning for Partially Observable MDPs.
+3. [[DDQN] Double Deep Q-Networks](./Model-Free%20RL/Deep%20Q-Learning/3-DDQN.md): Deep Reinforcement Learning with Double Q-Learning.
+4. [[Dueling DQN] Dueling Deep Q-Networks](./Model-Free%20RL/Deep%20Q-Learning/4-Dueling%20DQN.md): Dueling Network Architectures for Deep Reinforcement Learning.
 
 
 ## Techniques
 
-1. [[PER] Prioritized Experience Replay](./Techniques/1-PER.md): Prioritized Experience Replay.
+### Experience Replay
+
+1. [[PER] Prioritized Experience Replay](./Techniques/Experience%20Replay/1-PER.md): Prioritized Experience Replay.
 
 
 ## Hierarchical RL
