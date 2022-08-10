@@ -20,6 +20,9 @@ The reading notes of reinforcement learning papers.
 
 1. [[PER] Prioritized Experience Replay](./Techniques/Experience%20Replay/1-PER.md): Prioritized Experience Replay.
 
+### Exploration
+
+1. [[NoisyNet] Noisy Netowrks](./Techniques/Exploration/1-NoisyNet.md): Noisy Networks for Exploration.
 
 ## Hierarchical RL
 
