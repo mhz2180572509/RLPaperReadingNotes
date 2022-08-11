@@ -1,6 +1,6 @@
 # [PER] Prioritized Experience Replay
 
-> Prioritized Experience Replay. Retrieved August 9, 2022 from https://www.deepmind.com/publications/prioritized-experience-replay
+> Tom Schaul, John Quan, Ioannis Antonoglou, and David Silver. 2016. Prioritized Experience Replay. DOI:https://doi.org/10.48550/arXiv.1511.05952
 
 ![Prioritized Experience Replay](./Images/1-1.png)
 
