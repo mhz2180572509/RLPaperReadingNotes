@@ -13,6 +13,10 @@ The reading notes of reinforcement learning papers.
 3. [[DDQN] Double Deep Q-Networks](./Model-Free%20RL/Deep%20Q-Learning/3-DDQN.md): Deep Reinforcement Learning with Double Q-Learning.
 4. [[Dueling DQN] Dueling Deep Q-Networks](./Model-Free%20RL/Deep%20Q-Learning/4-Dueling%20DQN.md): Dueling Network Architectures for Deep Reinforcement Learning.
 
+### Policy Gradients
+
+1. [[A3C] Asynchronous Advantage Actor-Critic](./Model-Free%20RL/Policy%20Gradients/1-A3C.md): Asynchronous Methods for Deep Reinforcement Learning.
+
 
 ## Techniques
 
