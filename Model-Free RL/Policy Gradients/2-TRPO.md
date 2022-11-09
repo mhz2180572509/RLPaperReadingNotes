@@ -73,7 +73,7 @@ The second approximation is based on the conservative policy iteration, however,
 
 For now, based on the finally derived objective to be minimized, the algorithm can be shown as
 
-![Algorithm: Approximate policy iteration algorithm guaranteeing non-increasing expected cost $\eta$](./Images/2-2.png)
+![Algorithm: Approximate policy iteration algorithm guaranteeing non-increasing expected cost](./Images/2-2.png)
 
 The algorithm provides the theorical formula to update the policies based on the assumption that we know all of the transition functions and we can directly compute the $argmin$ part. However, we usually have no exact form of the policies, which means we **cannot directly compute the** $argmin$, so in the following sections, we consider the **parameterized** policy function $\pi_{\theta}$.
 
@@ -81,7 +81,7 @@ The algorithm provides the theorical formula to update the policies based on the
 
 In this section, we consider the **parameterized** policy function $\pi_{\theta}$ to see how can we directly update the parameters from $\theta_{old}$  to $\theta$. To rewrite the objective in a parameterized form, we have:
 
-$\eta(\theta)<L_{\theta_{old}}(\theta)+C D_{KL}^{max}(\theta_{old},\theta)$
+$\eta(\theta) < L_{\theta_{old}}(\theta)+C D_{KL}^{max}(\theta_{old},\theta)$
 
 * The ***fifth approximation***: to use a constraint on the KL divergence between the new policy and the old policy, i.e., a **trust region constraint**:
   $\min_{\theta}[L_{\theta_{old}}(\theta)]$
