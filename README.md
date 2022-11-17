@@ -17,7 +17,7 @@ The reading notes of reinforcement learning papers.
 
 1. [[A3C] Asynchronous Advantage Actor-Critic](./Model-Free%20RL/Policy%20Gradients/1-A3C.md): Asynchronous Methods for Deep Reinforcement Learning.
 2. [[TRPO] Trust Region Policy Optimization](./Model-Free%20RL/Policy%20Gradients/2-TRPO.md): Trust Region Policy Optimization.
-
+3. [[GAE] Generalized Advantage Estimation](./Model-Free%20RL/Policy%20Gradients/3-GAE.md): High-Dimensional Continuous Control Using Generalized Advantage Estimation.
 
 ## Techniques
 
